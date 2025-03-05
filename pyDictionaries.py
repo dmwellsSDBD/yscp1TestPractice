@@ -22,10 +22,11 @@ print(myDict)
 
 print('\nDelete an item from the Dictionary, and return it\'s value')
 
-rem_value = myDict.pop('age')
+print("Before Pop\n", myDict)
 
-print(rem_value)
-print(myDict)
+rem_value = myDict.pop('age')
+print("results of .pop('age'): ", rem_value)
+print("After Pop\n", myDict)
 
 print("\nA New Dictionary\n")
 
